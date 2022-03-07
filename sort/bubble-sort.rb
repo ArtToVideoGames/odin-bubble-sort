@@ -7,7 +7,7 @@ def bubble_sort(array)
   
         unless(array[nextIndex] == nil)
           if(array[index] > array[nextIndex])
-                array[index], array[nextIndex] = array[nextIndex],                 array[index]
+                array[index], array[nextIndex] = array[nextIndex], array[index]
           end
         end
       end
